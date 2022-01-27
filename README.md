@@ -12,7 +12,7 @@ Install the plugin in your Redmine plugins directory, clone this repository as `
 
 ```
 cd {RAILS_ROOT}/plugins
-git clone https://github.com/onozaty/redmine-view-customize.git view_customize
+git clone https://github.com/MAVREE/redmine-view-customize.git view_customize
 cd ../
 bundle install --without development test
 bundle exec rake redmine:plugins:migrate RAILS_ENV=production
